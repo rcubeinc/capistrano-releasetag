@@ -1,5 +1,4 @@
 
-
 namespace :load do
   task :defaults do
     set :release_repo_role, -> { :db }
