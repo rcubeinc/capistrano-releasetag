@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{capistrano deploy and create tags}
   spec.description   = %q{capistrano deploy and create tags}
+  spec.files       = `git ls-files lib`.split(/\n/) + %w{ README.md LICENSE }
   spec.license       = "MIT"
 
   spec.require_paths = ["lib"]
