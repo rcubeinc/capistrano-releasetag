@@ -1,11 +1,8 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'capistrano/releasetag/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "capistrano-releasetag"
-  spec.version       = Capistrano::Releasetag::VERSION
+  spec.version       = '1.0.0'
   spec.authors       = ["rcubeinc_hikime"]
   spec.email         = ["hikime@rcubeinc.com"]
 
