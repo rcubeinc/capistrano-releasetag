@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Capistrano::Release::Tag do
+describe Capistrano::Releasetag do
   it 'has a version number' do
-    expect(Capistrano::Release::Tag::VERSION).not_to be nil
+    expect(Capistrano::Releasetag::VERSION).not_to be nil
   end
 
   it 'does something useful' do
