@@ -1,5 +1,4 @@
 require 'capistrano'
-require 'capistrano/deploy'
 
 module Capistrano
   module Releasetag
