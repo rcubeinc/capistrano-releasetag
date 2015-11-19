@@ -20,6 +20,9 @@ Or install it yourself as:
 
     $ gem install capistrano-release-tag
 
+## TODO
+- Slack/Hipchat Notification
+
 ## Usage
 
 TODO: Write usage instructions here
