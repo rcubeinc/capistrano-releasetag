@@ -22,6 +22,7 @@ Or install it yourself as:
 
 ## TODO
 - Slack/Hipchat Notification
+- Build && Sync Deploy
 
 ## Usage
 
